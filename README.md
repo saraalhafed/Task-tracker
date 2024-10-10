@@ -36,4 +36,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 -----------------------------------------
 in this project we used next.js withpnpm , 
-   shadcn framework to use form and input ,
+   shadcn framework to use form and input ,we need to import the form and input 
