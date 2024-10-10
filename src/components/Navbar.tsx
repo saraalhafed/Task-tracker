@@ -10,7 +10,7 @@ export default function Navbar() {
       <Link href="/todos" className="text-white font-bold">
         Task Manager App
       </Link>
-      <div suppressHydrationWarning> {/* this at */}
+      <div suppressHydrationWarning> {/* this is the solution for hydration error (renderin clint side not same in serverside) */}
         {/* if we in the clint side rendering we render this btn addtask(if there is user:just in localstorage) */}
         {typeof window !== 'undefined' && user && ( //we check if we in the server(no localstorage to check the user) side or clint side rendering
           <div className="flex gap-4 items-center">
